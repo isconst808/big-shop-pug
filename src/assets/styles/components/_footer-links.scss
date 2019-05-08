@@ -1,0 +1,16 @@
+/* src/assets/styles/components/_footer-links.scss  */
+
+.footer {
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 51px;
+  }
+  &__link {
+    color: $footerLinksColor;
+    font-family: $opensans;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 26px;
+  }
+}

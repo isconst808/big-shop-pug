@@ -1,3 +1,18 @@
 //- src/views/components/footer.pug
-
 footer.footer
+  .container
+    .row
+      .col
+        h3.footer__title Big Shop
+    .row.justify-content-center
+      .col.col-md-6
+        include ./footer-links
+    .row.justify-content-center
+      .col-4
+        include ./footer-icon-soc
+.footer__copyright
+  .container
+    .row.justify-content-center
+      .col
+        span &copy; Copyright 2017. Big Shop by Victor Themes
+

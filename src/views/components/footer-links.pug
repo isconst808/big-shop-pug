@@ -1,0 +1,9 @@
+//- src/views/components/footer-links.pug
+mixin links(...items)
+  ul(class='footer__links')
+    each item in items
+      li
+        a(href="#" class='footer__link')= item
+
+
++links('Man', 'Woman', 'Kids', 'Bags', 'Watches', 'Toys')

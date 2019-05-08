@@ -1,0 +1,11 @@
+//- src/views/components/footer-icon-soc.pug
+
+mixin iconsSoc(...classes)
+  ul(class='footer__icons-soc')
+    each className in classes
+      li
+        a(href="#" class='footer__icon-link')= item
+          i.footer__icon.fab(class='fa-'+className)
+
+
++iconsSoc('facebook-f', 'google-plus-g', 'instagram', 'twitter')

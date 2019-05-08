@@ -1,8 +1,26 @@
 /* src/assets/styles/components/_footer.scss  */
 
 
-
-/*
-  Responsive
-*/
-
+.footer {
+  padding-top: 75px;
+  &__title {
+    margin-bottom: 47px;
+    color: #222222;
+    font-family: $roboto;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: center;
+  }
+  &__copyright {
+    color: #777777;
+    font-family: $montserrat;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    padding: 26px 0;
+    background: #f6f5f7;
+  }
+}
