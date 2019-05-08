@@ -20,3 +20,10 @@
   background: linear-gradient(to right, rgba(140,132,249,1) 0%,rgba(161,101,244,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c84f9', endColorstr='#a165f4',GradientType=1 );
 }
+
+@mixin placeholder() {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
