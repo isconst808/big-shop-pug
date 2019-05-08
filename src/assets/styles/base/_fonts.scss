@@ -1,0 +1,32 @@
+/* src/assets/styles/base/_fonts.scss  */
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: local('Myriad Pro Regular'), local('MyriadPro-Regular'),
+  url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MyriadPro-Regular.woff') format('woff'),
+  url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$opensans: 'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$myriad: 'Myriad Pro', sans-serif;
+
+$fzTitle: 3.125rem;
+$fzBase: 1rem;
+$fzTitleFooter: 2.5rem;
+$fzPrice: 1.563rem;
+
+//18px = 1.125rem
+//50px = 3.125rem
+//115px = 7.188rem
+//20px = 1.25rem
+//25px = 1.563rem
+//14px = 0.875rem
+//16px = 1rem (base)
+//15px = 0.9375rem
+//40px = 2.5rem

@@ -1,0 +1,22 @@
+/* src/assets/styles/utils/_mixins.scss  */
+
+@mixin isFlex($align: center, $justify: center, $direction: row, $wrap: wrap) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin bgImage($url, $repeat: no-repeat, $position: center, $size: initial) {
+  background-image: url($url);
+  background-repeat: $repeat;
+  background-position: $position;
+  background-size: $size;
+}
+
+@mixin gradient {
+  background: rgb(140,132,249);
+  background: linear-gradient(to right, rgba(140,132,249,1) 0%,rgba(161,101,244,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c84f9', endColorstr='#a165f4',GradientType=1 );
+}
