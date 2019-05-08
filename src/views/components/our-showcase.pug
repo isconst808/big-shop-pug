@@ -1,3 +1,5 @@
+include product-block
+
 .our-showcase
   .container
     .row
@@ -10,3 +12,24 @@
             a.filter__link(href='#') Fashion
           li
             a.filter__link(href='#') Furnitures
+          li
+            a.filter__link.active(href='#') Watches
+          li
+            a.filter__link(href='#') Mobile
+          li
+            a.filter__link(href='#') Cloth
+          li
+            a.filter__link(href='#') Toys
+    .row
+      +productBlock('https://media.discordapp.net/attachments/575413390592180235/575576768615022592/watch_1.png',
+      "Fashion Genuine Chain Watch", '25.36')
+      +productBlock('https://media.discordapp.net/attachments/575413390592180235/575576770674425856/watch_2.png',
+      "Fashion Silver Chain Watch", '35.24')
+      +productBlock('https://media.discordapp.net/attachments/575413390592180235/575576800097337344/watch_3.png',
+      "Fashion Chain Watch", '23.12')
+      +productBlock('https://media.discordapp.net/attachments/575413390592180235/575576807689158675/watch_4.png',
+      "Fashion Chain Watch ", '42.32')
+      +productBlock('https://media.discordapp.net/attachments/575413390592180235/575576812260687872/watch_5.png',
+      "Fashion Lether  Watch", '15.20')
+      +productBlock('https://media.discordapp.net/attachments/575413390592180235/575576815700279297/watch_6.png',
+      "Fashion Forign Watch", '36.12')

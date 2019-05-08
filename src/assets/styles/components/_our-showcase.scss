@@ -5,6 +5,7 @@
   width: 100%;
   box-shadow: -1px 5px 48px 3px rgba(237, 235, 253, 0.75);
   background-color: #ffffff;
+  transform: translateY(75px);
   &__title {
     margin-bottom: 104px;
   }
@@ -17,6 +18,7 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 50px;
+    margin-bottom: 80px;
   }
 }
 
@@ -30,5 +32,12 @@
     line-height: 25px;
     font-size: 15px;
     letter-spacing: 0.15px;
+    &.active {
+      text-shadow: -2px 9px 5px rgba(213, 200, 247, 0.75);
+      color: #b394fa;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.2px;
+    }
   }
 }

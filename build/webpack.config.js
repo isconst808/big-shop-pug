@@ -182,7 +182,7 @@ module.exports = env => {
         $: 'jquery',
         jQuery: 'jquery',
         'window.$': 'jquery',
-        'window.jQuery': 'jquery'
+        'window.jQuery': 'jquery',
       }),
       new WebpackNotifierPlugin({
         title: 'Your project'
