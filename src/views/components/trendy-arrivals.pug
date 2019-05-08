@@ -1,4 +1,32 @@
-.container
-  .row
-    .col
-      h2.title Trendy Arrivals
+include product-block
+.trendy-arrivals
+  .container
+    .row
+      .col
+        h2.title.trendy-arrivals__title Trendy Arrivals
+    .row
+      +productBlock(
+        'https://media.discordapp.net/attachments/575413390592180235/575576749161840670/bag_1.png',
+        'Black Genuine Leather Bags',
+        '23.20')
+      +productBlock(
+      'https://media.discordapp.net/attachments/575413390592180235/575576750944288769/bag_2.png',
+      'Fashion Red Leather Bags',
+      '20.16')
+      +productBlock(
+      'https://media.discordapp.net/attachments/575413390592180235/575576753641226240/bag_3.png',
+      'Fashion Genuine Leather Bags',
+      '30.14')
+      +productBlock(
+      'https://media.discordapp.net/attachments/575413390592180235/575576755969196063/bag_4.png',
+      'Simply Leather Bags',
+      '15.20')
+      +productBlock(
+      'https://media.discordapp.net/attachments/575413390592180235/575576758787506177/bag_5.png',
+      'New Fashion Leather Bags',
+      '25.20')
+      +productBlock(
+      'https://media.discordapp.net/attachments/575413390592180235/575576761052692490/bag_6.png',
+      'Single Hand Models Bags',
+      '17.6')
+

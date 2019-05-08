@@ -1,0 +1,13 @@
+.trendy-arrivals {
+  max-width: 1380px;
+  width: 100%;
+  box-shadow: -1px 5px 48px 3px rgba(237, 235, 253, 0.75);
+  background-color: #ffffff;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  padding: 96px 0 143px;
+  &__title {
+    margin-bottom: 90px;
+  }
+}

@@ -1,0 +1,16 @@
+mixin productBlock(src, text, price)
+  .col-4
+    .product-block
+      .product-block__count.count.count__like
+        span.count__icon
+        span.count__num 253
+      .product-block__count.count.count__msg
+        span.count__icon
+        span.count__num 120
+      .product-block__img
+        img(src=src alt=text)
+      footer.product-block__footer
+        .product-block__desc= text
+        .product-block__price &dollar;
+          =price
+      button.product-block__button.button Add to Cart
